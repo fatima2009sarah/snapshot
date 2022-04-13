@@ -1,0 +1,20 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    backgr
+}
+
+.btn-success:hover{
+    background-color: rgba(214, 228, 22, 0.521);
+}
+
+canvas{
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 20px grey;}
+    to{box-shadow: 1px 1px 20px rgba(174, 24, 211, 0.226);} 
+}
